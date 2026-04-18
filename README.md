@@ -7,7 +7,7 @@ Site: https://leonp8.github.io/Teacher_Bruno_Portifolio/
 
 Este projeto foi construído "do zero" (sem uso de frameworks pesados) e foca em uma alta performance e design imersivo. Abaixo estão detalhadas todas as tecnologias, recursos e práticas utilizadas:
 
-### 📄 HTML5
+## 📄 HTML5
 *   **Semântica:** Uso de tags semânticas da HTML5 (`<header>`, `<footer>`, `<section>`, `<nav>`, `<details>`, `<summary>`) para melhorar a acessibilidade e o SEO (Search Engine Optimization) da página.
 *   **SVGs Inline:** Utilização de SVG diretamente no HTML para detalhes gráficos robustos, como os *Shape Dividers* (curvas nas seções) e o ícone do WhatsApp, mantendo dinâmico o tempo de carregamento.
 ---
