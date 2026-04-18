@@ -5,13 +5,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const hamburger = document.querySelector('.hamburger');
     const navLinks = document.querySelector('.nav-links');
 
-    if(hamburger && navLinks) {
+    if (hamburger && navLinks) {
         hamburger.addEventListener('click', () => {
             navLinks.classList.toggle('active');
-            
+
             // Hamburguer animation
             const spans = hamburger.querySelectorAll('span');
-            if(navLinks.classList.contains('active')){
+            if (navLinks.classList.contains('active')) {
                 spans[0].style.transform = 'rotate(45deg) translate(5px, 5px)';
                 spans[1].style.opacity = '0';
                 spans[2].style.transform = 'rotate(-45deg) translate(7px, -6px)';
@@ -66,7 +66,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     heroImage.style.transform = `rotate(-2deg) translateY(${scrollPos * 0.05}px)`;
                 }
             } else {
-                 heroImage.style.transform = `rotate(-2deg)`;
+                heroImage.style.transform = `rotate(-2deg)`;
             }
         });
     }
